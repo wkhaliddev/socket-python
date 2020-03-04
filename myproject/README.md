@@ -1,5 +1,5 @@
 # python-multiple-images-transfer-using-sockets
-Send multiple images from Client to Server using socket and zipfile modules
+Send single hard coded image from Server to Client using socket and zipfile modules
 ### Usage:
 #### Server
 ```
@@ -8,6 +8,6 @@ python server.py
 
 #### Client
 ```
-python client.py 3
+python client.py 
 ```
-Here, argument denotes the number of images to send
+No Arguments in any Server ot Client Callings
